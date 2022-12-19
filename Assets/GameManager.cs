@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     float span = 1.0f;             //時間間隔
     float delta = 0;               //現在已經累積的時間
     public GameObject hpGauge;     //置放血環的公開變數
-
+  
     void Update()
     {
         delta += Time.deltaTime;  // 累積時間到delta
