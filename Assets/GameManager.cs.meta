@@ -3,7 +3,11 @@ guid: 37f717fabb8ce1c4aaa590fce9a049ed
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - arrowPrefab: {instanceID: 0}
+  - foodPrefab: {instanceID: 0}
+  - hpGauge: {instanceID: 0}
+  - scoretx: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
