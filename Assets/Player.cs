@@ -44,13 +44,13 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag=="fish")
+        if(collision.tag=="arrow")
         {
             audioSource.PlayOneShot(Hurt);
             gameManager.GetComponent<GameManager>().DecreaseHp();//扣血
             print("0");
         }
-      if (collision.tag == "arrow")
+      if (collision.tag == "fish")
             gameManager.GetComponent<GameManager>().addhp();//加血
 
     }

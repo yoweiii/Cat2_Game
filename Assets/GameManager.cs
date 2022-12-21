@@ -57,6 +57,6 @@ public class GameManager : MonoBehaviour
     {
         print("0");
         score += 10;
-        scoretx.text = "score:" + score + "分";
+        scoretx.text = "score:" + score ;
     }
 }
